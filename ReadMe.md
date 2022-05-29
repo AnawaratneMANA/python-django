@@ -22,6 +22,9 @@
 * Run project 
     - `python manage.py runserver`
 
+* Add base files 
+    - `python manage.py startapp base`
+
 ⚠️ _Make sure to activate the env before running the project._
 
 _Official document_ - https://docs.djangoproject.com/en/4.0/
