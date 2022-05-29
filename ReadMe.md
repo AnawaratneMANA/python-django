@@ -2,4 +2,25 @@
 
 #### How to set up Django.
 
-_pending.._
+* Install `virtualenv`
+* Issue following commands
+    - `pip install virtualenv`
+    - `virtualenv env`
+
+* Activate `virtualenv`
+    - `. env/bin/activate`
+
+* Deactivate `virtualenv`
+    - `deactivate`
+
+* Install Django 
+    - `pip install django`
+
+* Create project 
+    - `django-admin startproject mysite`
+
+* Run project 
+    - `python manage.py runserver`
+
+⚠️ _Make sure to activate the env before running the project._
+
